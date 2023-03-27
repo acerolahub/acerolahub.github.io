@@ -54,7 +54,7 @@ puts markdown.to_html
 | Content Cell  | Content Cell  |
 ```
 
-|                |                                                                                                              |
+| Description    | Cmd                                                                                                          |
 | -------------- | ------------------------------------------------------------------------------------------------------------ |
 | Stop a profile | <pre class="language-bash"><code class="lang-bash">sudo ./mythic-cli c2 stop {c2_profile_name}
 </code></pre> |
