@@ -24,5 +24,21 @@ puts markdown.to_html
 ```
 ```
 
+```markdown
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 ```
+
+```bash
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Stop a profile  | sudo ./mythic-cli c2 stop {c2_profile_name} |
+| Content Cell  | Content Cell  |
 ```
+
+```
+// Some code
+```
+
