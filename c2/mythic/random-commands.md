@@ -6,5 +6,5 @@ To stop a C2 profile:
 
 / or /sudo ./mythic-clu c2 stop/ to stop them all.
 
-`` `sudo ./mythic-cli c2 stop {c2_profile_name}` ``
+`sudo ./mythic-cli c2 stop {c2_profile_name}`
 
