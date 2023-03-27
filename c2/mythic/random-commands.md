@@ -14,13 +14,12 @@ sudo ./mythic-cli c2 stop {c2_profile_name}
 
 ``
 
-````ruby
 ```ruby
+ruby
 require 'redcarpet'
 markdown = Redcarpet.new("Hello World!")
 puts markdown.to_html
 ```
-````
 
 ```
 ```
