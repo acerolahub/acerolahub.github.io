@@ -16,3 +16,7 @@
   * [Random commands](c2/mythic/random-commands.md)
   * [Troobleshooting](c2/mythic/troobleshooting/README.md)
     * [Page 5](c2/mythic/troobleshooting/page-5.md)
+
+## Troubleshooting
+
+* [hashcat](troubleshooting/hashcat.md)
