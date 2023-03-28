@@ -1,8 +1,12 @@
 # hashcat
 
-hashcat uses&#x20;
+Hashcat usually uses GPU to work. Well it's faster. However you can force it to use the CPU as well. In order for it to work on your AMD CPU, you need to install Intel CPU Runtime for OpenCL Applications.
+
+Hashcat uses OpenCL is that it can take advantage of the parallel processing capabilities of modern GPUs (Graphics Processing Units) to perform password cracking much faster than using only the CPU.
 
 No devices found/left.
+
+clGetPlatformIDs(): CL\_PLATFORM\_NOT\_FOUND\_KHR
 
 ### AMD and Hashcat on Linux 
 
@@ -30,4 +34,6 @@ On **Arch Linux (BlackArch)** to install, run the command:
 | 1 | `sudo` `pacman -S linux-firmware intel-compute-runtime pocl` |
 | - | ------------------------------------------------------------ |
 
-[https://miloserdov.org/?p=6507](https://miloserdov.org/?p=6507)
+{% embed url="https://miloserdov.org/?p=6507" %}
+
+{% embed url="https://miloserdov.org/?p=4726" %}
