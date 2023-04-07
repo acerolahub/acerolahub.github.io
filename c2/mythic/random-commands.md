@@ -12,7 +12,7 @@ To stop a C2 profile:
 sudo ./mythic-cli c2 stop {c2_profile_name}
 ```
 
-``
+
 
 ```ruby
 ruby
