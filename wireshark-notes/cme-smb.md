@@ -16,7 +16,7 @@ When the recipient doesn't support that th<at dialect
 TCP: [RST,ACK]
 ```
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 {% embed url="https://techcommunity.microsoft.com/t5/storage-at-microsoft/smb-is-dead-long-live-smb/ba-p/1185401" %}
 
@@ -88,8 +88,8 @@ TCP: ACK
 
 
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 
 
-![](<../.gitbook/assets/image (1).png>)
+![](../.gitbook/assets/image.png)

