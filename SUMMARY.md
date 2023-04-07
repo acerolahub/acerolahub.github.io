@@ -5,8 +5,8 @@
 ## Active Directory
 
 * [Methodologie d'attaque](active-directory/methodologie-dattaque/README.md)
-  * [Reconnaissance](active-directory/methodologie-dattaque/reconnaissance/README.md)
-    * [LDAP](active-directory/methodologie-dattaque/reconnaissance/ldap.md)
+  * [Reconnaissance](active-directory/methodologie-dattaque/reconnaissance.md)
+  * [Enumeration with user](active-directory/methodologie-dattaque/enumeration-with-user.md)
   * [Kerberos](active-directory/methodologie-dattaque/kerberos/README.md)
     * [Setting Kerberos on Linux](active-directory/methodologie-dattaque/kerberos/setting-kerberos-on-linux.md)
     * [Page 4](active-directory/methodologie-dattaque/kerberos/page-4.md)
